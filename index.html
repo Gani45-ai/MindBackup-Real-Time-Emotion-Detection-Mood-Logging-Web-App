@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>MindBackup — Live Emotion Web</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div id="app" class="mode-neutral">
+    <header>
+      <h1>MindBackup — Live Emotion</h1>
+      <div id="stats">Loading stats...</div>
+    </header>
+
+    <main>
+      <div class="left">
+        <video id="video" autoplay playsinline></video>
+        <div id="status">Waiting for camera...</div>
+      </div>
+
+      <div class="right">
+        <div id="latest">
+          <h2>Latest Snapshot</h2>
+          <img id="latest-img" src="" alt="" />
+          <div id="latest-emoji" class="emoji">🙂</div>
+        </div>
+
+        <div id="gallery">
+          <h3>Recent Memories</h3>
+          <div id="thumbs"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <small>Capturing snapshot every 5 seconds. Press Stop in the console to quit.</small>
+    </footer>
+  </div>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;padding:0;background:#f2f4f8;color:#111}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 32px;background:#0b1226;color:#fff}
+header h1{margin:0;font-size:20px}
+main{display:flex;gap:20px;padding:24px}
+.left{flex:1;display:flex;flex-direction:column;align-items:center}
+.right{width:420px}
+video{width:100%;max-width:860px;background:#000;border-radius:8px}
+#latest-img{width:100%;border-radius:8px;margin-top:8px}
+#latest-emoji{font-size:64px;margin-top:8px}
+#thumbs{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow:auto;margin-top:8px}
+.thumb{display:flex;align-items:center;gap:8px;background:#fff;padding:6px;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.thumb img{width:80px;height:60px;object-fit:cover;border-radius:4px}
+.mode-happy header, .mode-happy body, .mode-happy #app{background: linear-gradient(135deg,#ffefba,#ffc3a0);}
+.mode-angry header, .mode-angry #app{background: linear-gradient(135deg,#ff9a9e,#fecfef);}
+.mode-sad header, .mode-sad #app{background: linear-gradient(135deg,#cfd9df,#e2ebf0);}
+.mode-neutral header, .mode-neutral #app{background: linear-gradient(135deg,#dfe9f3,#ffffff);}
+footer{padding:12px 24px;background:#fafafa;border-top:1px solid #eee}
